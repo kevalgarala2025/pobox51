@@ -1,0 +1,1 @@
+<link href="{{ URL::asset('assets/css/responsive_table.css')}}" rel="stylesheet" type="text/css" />

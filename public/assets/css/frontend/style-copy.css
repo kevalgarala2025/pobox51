@@ -1,0 +1,709 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+/* Poppins Fonts Start  */
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+/* Poppins Fonts End  */
+
+/* Body Css Start */
+body {
+    /* Body Background  Css */
+    background: linear-gradient(-110deg,
+            #FFDFE5,
+            #FFFFFF,
+            #FFDFE5);
+    height: auto;
+}
+
+/* Body Css End */
+
+/* Header Start  */
+/* Navbar Css Start */
+.nav-item a {
+    display: block !important;
+}
+
+nav ul li {
+    color: #051C5B;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 20px 15px 10px;
+}
+
+.pop_close_btn_right {
+    padding: 15px 20px 0px 10px;
+}
+
+/* Navbar Css End */
+
+/* Model Pop-up Start */
+.modal-title {
+    color: #051C5B;
+}
+
+/* Dropdown Toggle iocne cheng  */
+.dropdown-toggle::after {
+    display: none;
+}
+
+/* Header End  */
+
+/*----------------------------- Home Page Css Start ----------------------------- */
+
+/* <!-- Logo and Create Event Email container Start  --> */
+.event_main_container {
+    border: 9px solid #002382;
+    border-radius: 24px;
+    margin-top: 10px;
+}
+
+.pobox51_logo {
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.privacy_main_div {
+    background-color: #002382;
+    padding: 15px 5px 10px 5px;
+}
+
+.event_content {
+    border-radius: 17px;
+    background-color: #FFFFFF !important;
+    padding: 30px;
+}
+
+.container_background_color {
+    background-color: #002382;
+}
+
+.event_content h4 {
+    color: #051C5B;
+    text-align: center;
+}
+
+.event_content p {
+    font-size: 14px;
+    color: #8590AD;
+    text-align: center;
+}
+
+.privacy_main_div p {
+    color: #ffffff;
+    font-size: 13px;
+    margin-bottom: 0px;
+    padding-left: 5px;
+}
+
+/* From Css Start  */
+small {
+    color: #707D9F;
+}
+
+.form-group.mt-5 {
+    position: relative;
+    margin-top: 2rem;
+}
+
+.form-group.mt-5 input[type="text"] {
+    border: none;
+    padding-left: 0px;
+    color: #051C5B;
+    font-weight: 600;
+}
+
+.form-group {
+    border: none;
+    border-bottom: 1.5px solid #8590AD;
+    border-radius: 0;
+    box-shadow: none;
+    align-items: center;
+}
+
+.form-group.mt-5 input[type="text"]::-moz-placeholder {
+    color: #939CB7;
+    opacity: 1;
+    font-weight: 500;
+}
+
+.form-group.mt-5 input[type="text"]::placeholder {
+    color: #939CB7;
+    opacity: 1;
+    font-weight: 500;
+}
+
+.form-group.mt-5 input[type="text"]:focus {
+    border-bottom-color: #8590AD;
+    box-shadow: none;
+    outline: none;
+}
+
+/* From Css End  */
+
+/* Valie Email Start  */
+/* <!-- chek icone color --> */
+.fa-check {
+    color: #33C481;
+    font-size: 22px;
+}
+
+/* Valie Email End  */
+
+/* Invalie Email Start  */
+/* <!-- Unchek icone color --> */
+.fa-xmark {
+    color: #BB0000;
+    font-size: 22px;
+}
+
+/* invalide email hase tyare neche red underline css*/
+/* .invalide_email {
+    border: none;
+    border-bottom: 1.5px solid #BB0000 !important;
+    border-radius: 0;
+    box-shadow: none;
+    align-items: center;
+} */
+
+/* Invalie Email End  */
+
+/* From Button Css Start */
+
+
+.create-email-btn {
+
+    border: 4px solid #fff;
+    border-radius: 50px;
+    outline: 1px solid #CFC1E1F9;
+    padding: 15px 40px 15px 40px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    margin: 10px;
+    cursor: pointer;
+
+}
+
+/* Button Disable Start  */
+.create-email-disable-btn {
+    background-color: #e0e0f8;
+    color: #777;
+}
+/* Button Disable End  */
+
+/* Button Active Start  */
+.create-email-active-btn {
+    background-color: #07112F;
+    color: #ffffff;
+}
+/* Button Active End  */
+
+.create-email-btn:hover {
+    background-color: #07112F;
+    color: #ffffff;
+    border-color: #d0d0f0;
+}
+
+.create-email-btn:focus {
+    outline: none;
+}
+
+.create-email-btn .arrow {
+    margin-left: 7px;
+    transition: margin-left 0.3s ease;
+}
+
+.create-email-btn:hover .arrow {
+    margin-left: 15px;
+}
+
+/* From Button Css End */
+/* <!-- Logo and Create Event Email container End  --> */
+
+/* Connect Offline Faster and Smoother  And Img Start  */
+.desktop-final-image {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 0px 0px 20px;
+}
+
+.desktop-final-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contact_offline_main_container p {
+    margin-top: 110px;
+    text-align: right;
+    margin-bottom: -13px;
+    color: #051C5B;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 22px;
+}
+
+/* Connect Offline Faster and Smoother  And Img End  */
+
+/* First image line Css Start  */
+.line-image-first {
+    left: 350px;
+    height: 500px;
+    width: 100px;
+    background: url('../../images/frontend/first_row.svg') no-repeat center;
+    background-size: contain;
+    background-position: left top;
+}
+
+/* Second image line Css Start  */
+.line-image-second {
+    left: 28%;
+    top: 90px;
+    width: auto;
+    height: 200px;
+}
+
+/* Third image line Css Start  */
+.line-image-third {
+    left: -55px;
+    top: 385px;
+    width: 240px;
+    height: 200px;
+    background: url('../../images/frontend/third_row.svg') no-repeat;
+    background-size: contain;
+    background-position: right top;
+}
+
+.line-image-first,
+.line-image-second,
+.line-image-third {
+    position: absolute;
+}
+
+/* Moblie And Tablet Bottom Container Start  */
+.work_div {
+    background-color: #ffffff;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    padding: 30px;
+    box-shadow: 1px -12px 56px -8px #cdcdcd;
+}
+
+.modal-title {
+    text-align: left !important;
+    font-weight: 500;
+    font-size: 20px;
+    color: #051C5B;
+}
+
+.work_div div {
+    color: #051C5B;
+}
+
+/* Moblie And Tablet Bottom Container End  */
+
+
+/*----------------------------- Home Page Css End ----------------------------- */
+
+/*-----------------------------Social Login Page Css Start ----------------------------- */
+
+.social_icon_bg div {
+    background-color: #EEF0F5;
+    padding: 15px;
+    border-radius: 100%;
+}
+
+.social_icon_bg {
+    margin: 35px 15px 30px 15px !important;
+    justify-content: space-between;
+}
+
+.social_bottom_img img {
+    margin-bottom: 0px !important;
+}
+
+
+/*-----------------------------Social Login Page Css End ----------------------------- */
+
+/*---------------------------- Sharing Contacts Email Page Css Start ----------------------------*/
+
+/* Button  */
+.another_email button {
+    background-color: #07112F;
+    color: #ffffff;
+    border: 2px solid #e0e0f8;
+    border-radius: 50px;
+    padding: 17px 25px 17px 25px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin: 0 auto;
+    box-shadow: 0px 4px 12px 0px #2F475E40;
+}
+
+.another_email {
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-top: 40px !important;
+    margin: 0 auto;
+}
+
+.another_email button:focus {
+    outline: none;
+}
+
+/* Count Title */
+.total_count_title {
+    font-size: 14px;
+    color: #8590AD;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+/* Count  */
+.count_title h2 {
+    text-align: center;
+    color: #051C5B;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+/* Email img  */
+.email_box_img img {
+    margin: 0 auto;
+    padding: 50px 0px 50px 0px;
+}
+
+.email_box_img {
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
+.sharing_text {
+    font-size: 20px !important;
+}
+
+
+
+/*---------------------------- Sharing Contacts Email Page Css End ----------------------------*/
+
+/*---------------------------- Ready To Share Page Css Start ----------------------------*/
+
+/* Title Start  */
+.share_email {
+    color: #07112F !important;
+}
+
+/* Progress Bar Start  */
+.countdown-wrapper {
+    position: relative;
+    width: 260px;
+    height: 260px;
+    margin: 0 auto;
+}
+
+.countdown-circle {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.progress-ring {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-90deg);
+}
+
+.progress-ring__background,
+.progress-ring__circle {
+    transition: 0.35s stroke-dashoffset;
+    transform: rotate(0deg);
+    transform-origin: 50% 50%;
+}
+
+.progress-ring__background {
+    stroke: #C7D1EB;
+    stroke-width: 7;
+    fill: transparent;
+}
+
+.progress-ring__circle {
+    stroke: #E5002B;
+    stroke-width: 7;
+    fill: transparent;
+}
+
+.countdown-timer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Progress Bar End  */
+
+/* Submission Text */
+.submission-text {
+    width: -moz-max-content;
+    width: max-content;
+    font-weight: 500;
+    color: #8590AD;
+    font-size: 15px !important;
+    margin-bottom: 5px;
+}
+
+/* Time  */
+.time-display {
+    font-weight: 300;
+    color: #051C5B !important;
+    margin-bottom: 10px;
+}
+#time{
+    font-size: 30px !important;
+}
+
+/* 2 Min Add Button  */
+.btn-add-time {
+    background-color: #07112F;
+    border: none;
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 8px 12px;
+    border-radius: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-add-time:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/* + Img */
+.btn-add-time img {
+    padding-right: 8px;
+}
+
+/* CONTACTS RECEIVED Start */
+.contact_received_count {
+    background-color: #FFEDF0;
+    border-radius: 30px;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.contact_book_img {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding: 8px 17px 8px 17px;
+    margin: 10px 0px 25px 0px !important;
+}
+
+.contact_book_img p {
+    margin-bottom: 0px;
+    font-weight: 500;
+    color: #051C5B !important;
+    margin-left: 5px;
+}
+
+.contact_received_count span {
+    font-weight: 600;
+    margin-left: 20px;
+    color: #051C5B;
+}
+
+/* CONTACTS RECEIVED End  */
+
+/* Slide to End Button Start */
+
+/* Active Slider Button Start */
+.slide-button-content {
+    display: flex;
+    align-items: center;
+    background-color: #07112F;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 17px 65px;
+    position: relative;
+    overflow: hidden;
+    font-size: 16px;
+    transition: background-color 0.6s ease;
+    border: 4px solid #fff;
+    outline: 1px solid #CFC1E1F9;
+}
+
+.slide-button-content,
+button>confirm {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0 20px;
+    min-width: 84%;
+    height: 61px;
+    line-height: 49px;
+    vertical-align: middle;
+    text-align: center;
+    border: 4px solid #fff;
+    outline: 1px solid #CFC1E1F9;
+    border-radius: 50px;
+    background: #07112F;
+    font-size: 17px;
+    font-weight: 500;
+    color: #FFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+.slide-button-content>confirm {
+    display: block;
+    position: absolute;
+    top: 2px;
+    right: 77%;
+    width: 100%;
+    border: none;
+    background: #000;
+    border-radius: 50px;
+    outline: none;
+    color: #949090;
+}
+
+.slide-button-content>confirm:after {
+    position: absolute;
+    top: 1px;
+    right: 0;
+    content: url('../../images/frontend/btn_arrow.svg');
+    font-weight: 500;
+    background: #406ce3;
+    border-radius: 50px;
+    font-size: 25px;
+    width: 47px;
+    height: 47px;
+    padding: 5px;
+    touch-action: pan-y;
+}
+
+.slide-button-content[disabled],
+.slide-button-content[disabled]>confirm {
+    cursor: default !important
+}
+
+.slide-button-content[disabled]>confirm:after {
+    content: url('../../images/frontend/btn_true.svg');
+}
+/* Active Slider Button End  */
+
+/* InActive Slider Button Start */
+/* .slide-button-content {
+    background-color: #E1E3EE;
+    border: none;
+    outline:none;
+    box-shadow: none !important;
+}
+
+.slide-button-content,
+button>confirm {
+    color: #AEB4CE;
+}
+.slide-button-content>confirm {
+    background: #E1E3EE;
+    outline: none;
+    box-shadow: none !important;
+}
+.slide-button-content>confirm:after {
+    content: url('../../images/frontend/btn_arrow.svg');
+    background: #ADB1C6;
+    top:5px
+} */
+/* InActive Slider Button End */
+
+/* Slide to End Button End */
+
+/*---------------------------- Ready To Share Page Css End ----------------------------*/
+
+/* Footer Css Start  */
+.footer_div{
+    display: flex;
+    justify-content: center;
+    background-color: #002382;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.footer_div li a{
+    cursor: pointer;
+    color: #fff !important;
+}
+.footer_div li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#contact_us_modal,#terms_policies_modal{
+    padding: 20px 20px 20px 17px !important;
+    background: transparent;
+}
+/* Footer Css Ens  */

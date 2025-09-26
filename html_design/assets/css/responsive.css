@@ -1,0 +1,386 @@
+/* -------------------------------------------------
+  min-width: 768px
+---------------------------------------------------*/
+@media (min-width:768px){
+	.container{
+		max-width:750px;
+	}
+}
+
+/* -------------------------------------------------
+  min-width: 992px
+---------------------------------------------------*/
+@media (min-width:992px){
+	.container{
+		max-width:970px;
+	}
+}
+
+/* -------------------------------------------------
+  min-width: 1200px
+---------------------------------------------------*/
+@media (min-width:1200px){
+	.container{
+		max-width:1170px;
+	}
+}
+
+/* -------------------------------------------------
+  min-width: 1300px
+---------------------------------------------------*/
+@media (min-width:1300px){
+	.container{
+		max-width:1270px;
+	}
+	.font-48 {
+	  font-size: 2.5rem;
+	}
+}
+
+/* -------------------------------------------------
+  min-width: 991px and max-width: 1199px
+---------------------------------------------------*/
+@media only screen and (min-width: 991px) and (max-width: 1199px) {
+
+}
+/* -------------------------------------------------
+  min-width: 991px and max-width: 1199px
+---------------------------------------------------*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.heading-Shadow {
+	    top: 0;
+	    bottom: 0%;
+	    position: absolute;
+	    width: 25%;
+	    left: 0;
+	}
+}
+/* -------------------------------------------------
+  max-width: 1600px
+---------------------------------------------------*/
+@media only screen and (max-width: 1600px) {
+
+}
+/* -------------------------------------------------
+  max-width: 1440px
+---------------------------------------------------*/
+@media only screen and (max-width: 1440px) {
+header {
+	padding: 25px 16px;
+}
+.navbar-expand-lg .navbar-nav > li {
+	padding: 0 22px;
+}
+.navbar-expand-lg .nav_btn > li {
+	padding: 0;
+}
+header .navbar-nav a {
+	font-size: 17px;
+	font-weight: 700;
+}
+
+}
+/* -------------------------------------------------
+  max-width: 1199px
+---------------------------------------------------*/
+@media only screen and (max-width: 1199px) {
+.navbar-brand img {
+	height: 47px;
+}
+.nav_btn li {
+	margin-left: 0px;
+}
+.navbar-expand-lg .navbar-nav > li {
+	padding: 0 5px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	font-size: 13px;
+}
+.navbar-expand-lg .navbar-nav.nav_btn > li {
+	margin-left: 0px;
+}
+.navbar-expand-lg .navbar-nav.nav_btn a.btn {
+	padding: 10px 20px;
+}
+.navbar-expand-lg .navbar-nav.nav_btn a {
+	font-size: 14px;
+	padding: 0px;
+}
+
+}
+/* -------------------------------------------------
+  min-width: 991px
+---------------------------------------------------*/
+@media only screen and (min-width: 991px) {
+.navbar-expand-lg .navbar-nav li:hover > .dropdown-menu {
+	display: block;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-menu {
+	display: none;
+	left: 100%;
+	top: 0;
+}
+.navbar-nav .dropdown-menu {
+	display: none;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu li:hover > a {
+	background-color: #3231a8;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-toggler {
+	padding-right: 35px;
+}
+.dropdown-menu .dropdown-toggler::after {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+}
+/* -------------------------------------------------
+  max-width: 991px
+---------------------------------------------------*/
+@media only screen and (max-width: 991px) {
+
+header.fixed-top {
+	position: fixed;
+  background-color: rgba(10, 17, 27, 0.2);
+-webkit-backdrop-filter: blur(15px);
+backdrop-filter: blur(15px);
+}
+.navbar-brand img {
+	height: 24px;
+}
+.navbar-toggler {
+	border: 0 none;
+	font-size: 24px;
+}
+.navbar-nav {
+	-webkit-animation-name: none;
+	animation-name: none;
+	border-right: 1px solid rgba(255,255,255,0.6);
+	float: left;
+	text-align: center;
+	width: 50%;
+}
+.navbar-nav:last-child {
+	border:0;
+}
+.navbar-expand-lg .navbar-nav > li {
+	-webkit-animation-name: none;
+	animation-name: none;
+	padding: 0;
+}
+.navbar-expand-lg .navbar-nav.nav_btn > li {
+	padding-bottom: 10px;
+}
+.navbar-nav .dropdown-menu {
+	border: 0 none;
+	text-align: center;
+}
+.navbar-nav .dropdown-menu .dropdown-menu {
+	background-color: rgba(0, 0, 0, 0.3);
+}
+.navbar-expand-lg .navbar-nav > li > .nav-link.active::before {
+	bottom: 0;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	display:inline-block;
+	padding: 5px 0;
+	text-align: center;
+}
+header {
+	height: auto;
+	padding: 10px 0;
+}
+header.nav-fixed {
+	height: auto;
+}
+.nav_btn li {
+	display: inline-block;
+}
+.navbar-expand-lg .navbar-nav > li:last-child {
+    padding-right: 0;
+}
+}
+/* -------------------------------------------------
+  max-width: 767px
+---------------------------------------------------*/
+@media only screen and (max-width: 767px) {
+	.navbar-brand .logo {
+	    height: 20px;
+	}
+
+	.copyrightFixed{
+		position: relative;
+		bottom: 0;
+	}
+
+	.eventBlock{
+		height: auto;
+		padding: 30px 11px;
+	}
+	.font-12 {
+	    font-size: 0.7rem;
+	}
+	.font-48 {
+	  font-size: 1.2rem;
+	}
+
+	.width-75, .width-50, .width-45, .width-340px{
+		width: auto !important;
+	}
+	.continue-btn-white a{
+		padding: 5px 20px;
+		margin-bottom: 15px;
+	}
+
+	.banner-heading .heading-top{
+		text-align: center;
+	}
+	.banner-heading h1{
+		color: #fff;
+		font-weight: 500;
+		font-size: 2.25rem;
+		margin-bottom: 30px;
+		text-align: center;
+		line-height: 43.57px;
+	}
+	.banner-heading p{
+		text-align: center;
+		font-size: 20px;
+		line-height: 24.2px;
+	}
+	.banner_buttons_links a {
+		margin-right: 0;
+	    margin-bottom: 20px;
+	    display: block;
+	    text-align: center;
+	}
+	.countTimer-box{
+		padding: 10px;
+	}
+	/*.counter_box{
+		width: 25%;
+	}*/
+	.currencyBlock-15{
+		padding: 10px;
+	}
+	.titleCurrency{
+		font-size: 11px;
+	}
+	.navCustom-banner.nav-tabs .nav-link{
+		width: 25%;
+		margin-bottom: 8px;
+	}
+	.heading-Shadow {
+	    top: 0;
+	    bottom: 0%;
+	    position: absolute;
+	    width: 25%;
+	    left: 0;
+	}
+	.h1, h1{
+	    font-size: 2.25rem;
+	    text-align: center;
+	}
+	.retail_banner p{
+		text-align: center;
+	}
+
+	.mediaTeam .media{
+		flex-direction: column;
+		align-items: center;
+	}
+	.mediaTeam .media img{
+		margin-right: 0;
+		margin-bottom: 30px;
+	}
+	.mediaTeam .media .media-body{
+		text-align: center;
+	}
+	.leftBorder-gradient-team{
+		margin-top: 30px;
+	}
+	footer{
+		text-align: center;
+	}
+	footer img{
+		margin: 0 auto;
+		text-align: center;
+	}
+	.rewrds-box {
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 12px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 15px;
+	}
+	#videoModal iframe{
+		height: auto;
+	}
+	.close.closeCustom{
+		right: 10px;
+	}
+
+	.counter_box .tk_counter, .counter_box .tk_counter::after{
+		font-size: 46px;
+	}
+	.eventBlock.countTimer-Section{
+		padding: 25px;
+	}
+	.counter_box.minAddBlock .hours{
+		padding: 5px;
+		padding-bottom: 0;
+	}
+	.counter_box.minAddBlock .hours{
+		font-size: 24px;
+	}
+}
+/* -------------------------------------------------
+  max-width: 640px
+---------------------------------------------------*/
+@media only screen and (max-width: 640px) {
+
+}
+/* -------------------------------------------------
+  max-width: 580px
+---------------------------------------------------*/
+@media only screen and (max-width: 580px) {
+	.timeline .owl-prev {
+	    left: 0px;
+	}
+	.timeline .owl-next {
+	    right: 0px;
+	}
+}
+/* -------------------------------------------------
+  max-width: 480px
+---------------------------------------------------*/
+@media only screen and (max-width: 480px) {
+
+body,
+.btn {
+	font-size: 14px;
+}
+.h1, h1 {
+	font-size: 2.25rem;
+}
+.h3, h3 {
+	font-size: 1rem;
+}
+.navbar-brand img {
+	height: 24px;
+}
+.navbar-nav {
+	border-right: 0 none;
+	width: 100%;
+}
+}
+/* -------------------------------------------------
+  max-width: 380px
+---------------------------------------------------*/
+@media only screen and (max-width: 380px) {
+
+}

@@ -1,0 +1,1 @@
+<script src="{{ URL::asset('assets/js/responsive_table.js')}}"></script>

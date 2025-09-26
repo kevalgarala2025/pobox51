@@ -1,0 +1,19 @@
+
+.locked {
+    font-size: 17px;
+    color: white;
+}
+
+.locked_handle{
+    background-image: url("../../images/frontend/right_arrow.svg");
+    background-position: 40% 50%;
+}
+
+
+.unlocked {
+    background-color:transparent;
+}
+.unlocked_handle{
+    background-image: url("../../images/frontend/left_arrow.svg");
+    background-position: 50% 50%;
+}

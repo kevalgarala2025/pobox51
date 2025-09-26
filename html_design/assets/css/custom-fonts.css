@@ -1,0 +1,66 @@
+
+    @font-face {
+        font-family: 'Aileron-Regular';
+        src: url('../fonts/Aileron-Regular.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+
+    @font-face {
+    font-family: 'Aileron-Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Aileron-Italic'), url('../fonts/Aileron-Italic.otf') format('opentype');
+    }
+    
+
+    @font-face {
+    font-family: 'D-DIN DIN-Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('D-DIN DIN-Bold'), url('../fonts/D-DIN-Bold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'D-DIN Condensed Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('D-DIN Condensed Regular'), url('../fonts/D-DINCondensed.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'D-DIN Exp Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('D-DIN Exp Regular'), url('../fonts/D-DINExp.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'D-DIN Exp DINExp-Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('D-DIN Exp DINExp-Italic'), url('../fonts/D-DINExp-Italic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'D-DIN Condensed DINCondensed-Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('D-DIN Condensed DINCondensed-Bold'), url('../fonts/D-DINCondensed-Bold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'D-DIN Exp DINExp-Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('D-DIN Exp DINExp-Bold'), url('../fonts/D-DINExp-Bold.woff') format('woff');
+    }
+
+
+

@@ -1,0 +1,6 @@
+INSERT INTO `tbl_settings` (`id`, `v_key`, `t_value`, `v_label`, `e_type`, `e_tab`, `e_is_required`, `j_validation`, `e_form_element_type`, `j_form_values`, `j_hide_setting_values`, `i_group_order`, `i_tab_group_order`, `e_is_editable`, `e_status`, `created_at`, `updated_at`) VALUES (NULL, 'total_event_running_at_a_time', '30', 'Total Event Running At A Time', 'Event', 'None', 'Yes', NULL, 'Number', NULL, NULL, '1', '0', 'Yes', 'Active', '2023-06-20 11:31:52', '2023-06-21 11:31:52');
+
+
+ALTER TABLE `tbl_user_events` CHANGE `e_status` `e_status` ENUM('Active','Pause','Completed') CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL DEFAULT 'Active';
+
+ALTER TABLE `tbl_user_events`  ADD `v_latitude` VARCHAR(50) NULL DEFAULT NULL  AFTER `d_event_sharing_completed_datetime`,  ADD `v_longitude` VARCHAR(50) NULL DEFAULT NULL  AFTER `v_latitude`;

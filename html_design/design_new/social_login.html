@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="POBox51">
+    <meta name="keywords" content="POBox51">
+    <meta name="author" content="POBox51">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Login</title>
+    <!-- Bootstrp Css Start -->
+    <link rel="stylesheet" href="cdn/bootstrp/bootstrap.min.css">
+    <!-- Bootstrp Css End -->
+    <!-- Font Awesome Css Start  -->
+    <link rel="stylesheet" href="cdn/font_awesome/all.min.css">
+    <!-- Font Awesome Css End  -->
+    <!-- Style Css Start -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Style Css End -->
+</head>
+
+<body>
+    <!-- Header Start -->
+    <header>
+        <div class="line-image-first d-none d-lg-block"></div>
+        <div class="line-image-second d-none d-lg-block">
+            <img src="images/second_row.svg" alt="second row" class="img-fluid">
+        </div>
+        <nav class="navbar navbar-expand-lg desktop-header">
+            <div class="container-fluid">
+                <div class="navbar-collapse justify-content-end">
+                    <ul class="navbar-nav poppins-medium">
+                        <!-- Moblie And Tablet Menu start -->
+                        <div class="nav_moblie">
+                            <a class="nav-link dropdown-toggle d-lg-none" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img src="images/main_logo.svg" alt="Mobile_logo" class="mobile_logo">
+                                <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" data-toggle="modal" data-target="#how_it_work_modal">How it
+                                    Works</a>
+                                <a class="dropdown-item" data-toggle="modal" data-target="#about_us_modal">About Us</a>
+                                <a class="dropdown-item" data-toggle="modal" data-target="#why_pobox51_modal">Why
+                                    POBox51</a>
+
+                            </div>
+                        </div>
+                        <!-- Moblie And Tablet Menu End -->
+                        <li class="nav-item d-none d-lg-block">
+                            <a class="nav-link" data-toggle="modal" data-target="#how_it_work_modal">How it Works</a>
+                        </li>
+                        <!-- How it Works Modal Start -->
+                        <div class="modal" id="how_it_work_modal" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="pop_close_btn_right">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true"><i class="fa-solid fa-xmark"
+                                                    style="color: #000000;"></i></span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body poppins-regular">
+                                        <h4 class="modal-title">Here’s how it works</h4>
+                                        <div class="pt-3 d-flex align-items-center moblie_pop_up">
+                                            <div><img src="images/mail_box.svg" alt="mail_box"></div>
+                                            <div class="ml-3 pop_up_description">Create your event’s email address <br>
+                                                Provide
+                                                location access</div>
+                                        </div>
+                                        <div class="pt-4 d-flex align-items-center moblie_pop_up">
+                                            <div><img src="images/share.svg" alt="share"></div>
+                                            <div class="ml-3 pop_up_description">Share this email address with all
+                                                attendees</div>
+                                        </div>
+                                        <div class="pt-4 d-flex align-items-center moblie_pop_up">
+                                            <div><img src="images/instruct.svg" alt="Instruct"></div>
+                                            <div class="ml-3 pop_up_description">Instruct attendees to email on this
+                                                address with their
+                                                mobile number in the subject line, leaving the body empty within
+                                                given time</div>
+                                        </div>
+                                        <div class="pt-4 d-flex align-items-center moblie_pop_up">
+                                            <div><img src="images/contacts.svg" alt="contacts"></div>
+                                            <div class="ml-3 pop_up_description">Once the provided time expires, a VCF
+                                                file with all
+                                                contacts is sent to you and the attendees</div>
+                                        </div>
+                                        <div class="pt-4 d-flex align-items-center moblie_pop_up">
+                                            <div><img src="images/download.svg" alt="download"></div>
+                                            <div class="ml-3 pop_up_description">Download the VCF file and import the
+                                                contacts into
+                                                your digital contact book</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- How it Works Modal End -->
+                        <li class="nav-item d-none d-lg-block">
+                            <a class="nav-link" data-toggle="modal" data-target="#about_us_modal">About Us</a>
+                        </li>
+                        <!-- About Us Modal Start -->
+                        <div class="modal" id="about_us_modal" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="pop_close_btn_right">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true"><i class="fa-solid fa-xmark"
+                                                    style="color: #000000;"></i></span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body poppins-regular">
+                                        <h4 class="modal-title mb-3">About Us</h4>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                            industry. Lorem Ipsum has been the industry's standard dummy text ever
+                                            since the 1500s, when an unknown printer took a galley of type and
+                                            scrambled it to make a type specimen book. It has survived not only five
+                                            centuries, but also the leap into electronic typesetting, remaining
+                                            essentially unchanged. It was popularised in the 1960s with the release
+                                            of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                            with desktop publishing software like Aldus PageMaker including versions
+                                            of Lorem Ipsum.</p>
+                                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+                                            roots in a piece of classical Latin literature from 45 BC, making it
+                                            over 2000 years old.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- About Us Modal End -->
+                        <li class="nav-item d-none d-lg-block">
+                            <a class="nav-link" data-toggle="modal" data-target="#why_pobox51_modal">Why POBox51</a>
+                        </li>
+                        <!-- Why POBox51 Modal Start -->
+                        <div class="modal" id="why_pobox51_modal" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="pop_close_btn_right">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true"><i class="fa-solid fa-xmark"
+                                                    style="color: #000000;"></i></span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body poppins-regular">
+                                        <h4 class="modal-title mb-3">Why POBox51</h4>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                            industry. Lorem Ipsum has been the industry's standard dummy text ever
+                                            since the 1500s, when an unknown printer took a galley of type and
+                                            scrambled it to make a type specimen book. It has survived not only five
+                                            centuries, but also the leap into electronic typesetting, remaining
+                                            essentially unchanged. It was popularised in the 1960s with the release
+                                            of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                            with desktop publishing software like Aldus PageMaker including versions
+                                            of Lorem Ipsum.</p>
+                                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+                                            roots in a piece of classical Latin literature from 45 BC, making it
+                                            over 2000 years old.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Why POBox51 Modal End -->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Header End -->
+
+    <!-- Logo and Create Event Email container Start  -->
+    <div class="container col-sm-11 poppins-regular">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-9 col-lg-5 col-xl-4">
+                <div class="pobox51_logo d-none d-lg-block">
+                    <img src="images/main_logo.svg" alt="Logo">
+                </div>
+                <div class="event_main_container">
+                    <div class="container_background_color">
+                        <div class="event_content">
+                            <!-- Box Title -->
+                            <h4>Authenticate & Done!</h4>
+                            <!-- Box SubTitle -->
+                            <p>Authenticate using any option below</p>
+                            <!-- Social Icon Div Start  -->
+                            <div class="social_icon_main_div mt-5">
+                                <div class="d-flex social_icon_bg">
+                                    <div>
+                                        <img src="images/social_icon_facebook.svg" alt="Facebook">
+                                    </div>
+                                    <div>
+                                        <img src="images/social_icon_twitter.svg" alt="Twitter">
+                                    </div>
+                                    <div>
+                                        <img src="images/social_icon_instagram.svg" alt="Instagram">
+                                    </div>
+                                </div>
+                                <div class="d-flex social_icon_bg">
+                                    <div>
+                                        <img src="images/social_icon_linkedin.svg" alt="LinkedIn">
+                                    </div>
+                                    <div>
+                                        <img src="images/social_icon_google.svg" alt="Google">
+                                    </div>
+                                    <div>
+                                        <img src="images/social_icon_apple.svg" alt="Apple">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Social Icon Div Start  -->
+
+                        <!-- Privacy Div Start  -->
+                        <div class="d-flex privacy_main_div">
+                            <div>
+                                <img src="images/true.svg" alt="privacy_img">
+                            </div>
+                            <div>
+                                <p>
+                                    Your privacy is our priority. We promise never to look at your data or retain it
+                                    after the contacts are exchanged.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Privacy Div End  -->
+                    </div>
+                </div>
+            </div>
+            <!-- Logo and Create Event Email container End  -->
+
+            <!--  Connect Offline Faster and Smoother  And Img Start  -->
+            <div
+                class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-8 contact_offline_main_container d-flex align-items-end flex-column justify-content-end">
+                <p class="d-none d-lg-block">Connect Offline Faster and Smoother</p>
+                <div class="desktop-final-image social_bottom_img">
+                    <img src="images/connect_offline.svg" alt="Desktop Final" class="img-fluid">
+                </div>
+            </div>
+            <div class="line-image-third d-none d-lg-block"></div>
+            <!--  Connect Offline Faster and Smoother  And Img End  -->
+        </div>
+    </div>
+</body>
+<!-- Bootstrp Js Start -->
+<script src="cdn/bootstrp/jquery-3.5.1.slim.min.js"></script>
+<script src="cdn/bootstrp/bootstrap.min.js"></script>
+<!-- Bootstrp Js End -->
+<!-- Font Awesome Js Start  -->
+<script src="cdn/font_awesome/all.min.js"></script>
+<!-- Font Awesome End Start  -->
+<!-- Coustom js Start  -->
+<script src="js/coustom.js"></script>
+<!-- Coustom js End  -->
+
+</html>
