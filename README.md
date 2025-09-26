@@ -127,18 +127,6 @@ docker run -d -p 80:80 -p 443:443 --name pobox51-app pobox51
 
 ## Development Commands
 
-### Asset Compilation
-```bash
-# Watch for changes during development
-npm run watch
-
-# Hot reload for development
-npm run hot
-
-# Build for production
-npm run production
-```
-
 ### Laravel Commands
 ```bash
 # Clear application cache
